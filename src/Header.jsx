@@ -1,6 +1,6 @@
 import React, { useEffect,useRef,forwardRef, useState } from 'react'
 import './styles/Header.css'
-import GlitchText from './Glitchtext'
+import GlitchText from './GlitchText'
 import Lanyard from './Lanyard'
 
 const Header = forwardRef(({ scrollToSection, homeRef, aboutUsRef, servicesRef, contactUsRef },ref) => {
