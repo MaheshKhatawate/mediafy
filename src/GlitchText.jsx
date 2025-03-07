@@ -1,4 +1,4 @@
-import './styles/Glitchtext.css';
+import './styles/GlitchText.css';
 
 const GlitchText = ({
   children,
