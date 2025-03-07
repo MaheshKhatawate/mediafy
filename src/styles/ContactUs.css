@@ -1,0 +1,31 @@
+:root {
+    --greyColor: #585858;
+    --yellowColor: #FAD900;
+    --whiteColor: #F8F8F8;
+    --orangeColor: #EF5539;
+    --blackColor: #000000;
+    --headline: 'anton', sans-serif;
+    --para: 'roboto';
+}
+
+.collab-container{
+    height: 600px;
+    position: relative;
+}
+
+.contact-us-heading{
+    font-family: var(--headline);
+    font-size: 4vw;
+    text-align: center;
+    padding: 1%;
+}
+
+.insta{
+    text-decoration: none;
+}
+
+@media screen and (max-width:430px) {
+    .collab-container{
+        height: 300px;
+    }
+}

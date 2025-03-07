@@ -1,0 +1,52 @@
+:root {
+    --greyColor: #585858;
+    --yellowColor: #FAD900;
+    --whiteColor: #F8F8F8;
+    --orangeColor: #EF5539;
+    --blackColor: #000000;
+    --headline: 'anton', sans-serif;
+    --para: 'roboto';
+}
+
+.service{
+    background-color: rgba(128, 128, 128, 0.2);
+    height: 75vh;
+    max-width: 30vw;
+    padding: 2%;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.489);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-heading{
+    font-family: var(--headline);
+    font-size: 3vw;
+    border-bottom: 2px solid grey;
+    border-bottom-left-radius:5% ;
+    border-bottom-right-radius: 5%;
+}
+
+#service-img{
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.service-list{
+    list-style: none;
+    min-height: 15vh;
+    /* background-color: red; */
+    font-family: var(--para);
+    padding: 1%;
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .service{
+        height: 40vh;
+    }
+}

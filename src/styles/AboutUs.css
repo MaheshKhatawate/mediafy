@@ -1,0 +1,64 @@
+:root {
+    --greyColor: #585858;
+    --yellowColor: #FAD900;
+    --whiteColor: #F8F8F8;
+    --orangeColor: #EF5539;
+    --blackColor: #000000;
+    --headline: 'anton', sans-serif;
+    --para: 'roboto';
+}
+
+.about-us{
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+}
+
+.about-us-content{
+    background-color: rgb(212, 212, 212);
+    border: 1px solid gray;
+    max-width: 45vw;
+    border-radius: 3%;
+}
+
+#about-us-head{
+    font-size: 4vw;
+    font-family: var(--headline);
+    padding: 8%;
+}
+
+#about-us-text{
+    font-family: var(--para);
+    padding:0 8% 5%;
+    line-height: 1.5;
+    color: var(--greyColor);
+}
+
+#about-us-img{
+    /* max-height: 40vh; */
+    max-width: 20vw;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+@media  screen and (max-width:500px) {
+    .about-us{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-us-img{
+        max-width: 40vw;
+        margin-top: 5%;
+    }
+
+    .about-us-content{
+        display: flex;
+        max-width: 80vw;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+    }
+}

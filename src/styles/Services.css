@@ -1,0 +1,39 @@
+:root {
+    --greyColor: #585858;
+    --yellowColor: #FAD900;
+    --whiteColor: #F8F8F8;
+    --orangeColor: #EF5539;
+    --blackColor: #000000;
+    --headline: 'anton', sans-serif;
+    --para: 'roboto';
+}
+
+.services{
+    background: var(--blackColor);
+    color: var(--whiteColor);
+}
+
+.services-title{
+    font-family: var(--headline);
+    font-size: 6vw;
+    transform: translate(18%);
+}
+
+.divider{
+    height: .5vh;
+    border-radius: 50%;
+    background-color: #585858;
+}
+
+.service-items{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:678px) {
+    .service-items{
+        flex-wrap: wrap(2);
+    }
+}
